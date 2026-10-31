@@ -1,0 +1,22 @@
+{
+  "_說明": "範例：把前面各支腳本產出的 PDF 合成一份審查資料總檔。file 的相對路徑以這個 JSON 所在資料夾為準（可用 --base-dir 改）；檔名對應 SKILL.md 第 7 節範例指令的輸出。申請人林小安是虛構的。",
+  "output": "審查資料總檔.pdf",
+  "toc": true,
+  "toc_title": "審查資料目錄",
+  "toc_intro": [
+    "考生：林小安（Lin Hsiao-An）",
+    "報考：OO大學 永續管理研究所 碩士班甄試"
+  ],
+  "bookmarks": true,
+  "strip_links": true,
+  "max_mb": 15,
+  "compress": true,
+  "metadata": {"title": "審查資料總檔"},
+  "items": [
+    {"title": "一、推薦函", "note": "由推薦人透過報名系統另行上傳，不含於本檔"},
+    {"title": "二、個人資料表", "file": "個人資料表.pdf"},
+    {"title": "三、自傳", "file": "自傳_一頁.pdf"},
+    {"title": "四、讀書計畫（中文）", "file": "讀書計畫.pdf"},
+    {"title": "五、讀書計畫（英文）", "file": "Study_Plan.pdf", "pages": "1-2"}
+  ]
+}

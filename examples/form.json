@@ -1,0 +1,29 @@
+{
+  "_說明": "範例：申請人林小安與所有學校、公司、數字都是虛構的。proof 寫的是「佐證合輯原檔」的頁碼；render_form.py 會依表格順序印出重排頁序。",
+  "title": "OO大學 永續管理研究所 碩士班甄試 個人資料表",
+  "subtitle": "Personal Information Form",
+  "proof_column": "佐證頁",
+  "label_width": "3.2cm",
+  "rows": [
+    {"type": "kv", "label": "姓名", "label_en": "Name", "value": "林小安 Lin Hsiao-An"},
+    {"type": "kv", "label": "就讀學校科系", "label_en": "School / Department", "value": ["OO大學 XX學系 四年級", "Senior, Department of XX, OO University"]},
+    {"type": "kv", "label": "聯絡信箱", "label_en": "Email", "value": "hsiaoan.lin@example.com"},
+
+    {"type": "section", "title": "學歷", "title_en": "Education"},
+    {"type": "item", "period": "2023.09–2027.06", "text": "OO大學 XX學系 學士班（預計 2027 年 6 月畢業）", "text_en": "B.A. program, Department of XX, OO University (expected June 2027)", "proof": "成績單"},
+
+    {"type": "section", "title": "專題與實習", "title_en": "Projects and Internship"},
+    {"type": "item", "period": "2025.02–2025.12", "text": "專題「校園建築用電資料分析」：整理 12 棟大樓三年電費資料，建議調整 2 棟冷氣排程，試行一學期週末用電少約 9%", "text_en": "Capstone: analyzed three years of electricity data for 12 campus buildings; revised AC schedules cut weekend use in two buildings by about 9%", "proof": "p4"},
+    {"type": "item", "period": "2025.07–2025.08", "text": "OO 物業管理公司 工程部 暑期實習：整理 5 棟商辦大樓電錶資料、製作每月用電報表", "text_en": "Summer intern, engineering dept., OO Property Management: monthly electricity reports for five office buildings", "proof": "p2-3"},
+
+    {"type": "section", "title": "社團與服務", "title_en": "Activities"},
+    {"type": "item", "period": "2024.09–2025.06", "text": "淨灘社 活動長：一學期辦 6 場淨灘，約 180 人次參加", "text_en": "Events lead, Beach Cleanup Club: six cleanups, about 180 participants in one semester", "proof": "p5"},
+
+    {"type": "section", "title": "語言能力", "title_en": "Language"},
+    {"type": "item", "period": "2025.05", "text": "全民英檢中高級 通過", "text_en": "GEPT High-Intermediate, passed", "proof": "p1"},
+    {"type": "item", "period": "—", "text": "台語：日常對話", "text_en": "Taiwanese: conversational", "proof": "無證明"},
+
+    {"type": "text", "label": "自我介紹", "label_en": "About Me", "limit": 150, "count": "nospace", "value": "我在彰化長大，家裡開五金行，從小習慣先把數字找出來再想辦法。大三的用電專題和暑期實習讓我發現，建築節能的資料很多，但很少有人真的去看。我想在研究所學會更扎實的分析方法，也學會怎麼讓業主和租戶願意一起把節能措施做起來。"}
+  ],
+  "note": "＊佐證頁＝「其他有利審查資料」PDF 的頁碼。"
+}

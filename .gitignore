@@ -1,0 +1,19 @@
+# 產出物：PDF 一律不進 repo
+*.pdf
+_build/
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# 系統與備份
+.DS_Store
+*.bak-*
+
+# 申請人資料一律放在 repo 以外；萬一放進來也不要被 commit
+private/
+applicants/
